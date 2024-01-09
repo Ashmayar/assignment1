@@ -26,7 +26,7 @@ section {
     padding: 20px;
 }
 #box-2 {
-    margin: 50px;
+    margin: 10px;
     width: 1320px; /* Set the desired width of your div */
     height: 600px; /* Set the desired height of your div */
     background-image: url(Resources/Vectorrr.png);
@@ -39,7 +39,23 @@ section {
     align-items: center;
     color: rgb(250, 247, 247); /* Set text color */
     text-align: center; /* Center text horizontally */
-    padding: 20px;
+    padding: 10px;
+}
+#box-3 {
+    margin: 10px;
+    width: 1320px; /* Set the desired width of your div */
+    height: 600px; /* Set the desired height of your div */
+    background-color:rgba(255, 0, 0, 0.05);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 247, 247); /* Set text color */
+    text-align: center; /* Center text horizontally */
+    padding: 10px;
 }
 .text-line {
     font-size: 18px; /* Set font size */
@@ -47,7 +63,8 @@ section {
     margin-bottom: 10px; /* Adjust spacing between text lines */
     background-color: transparent;
     text-shadow: 2px 2px 4px #080000;
-    text-align: left;
+   
+    
 }
 #text-style-1 {
     color: #F00;
@@ -84,4 +101,21 @@ section {
 }
 #post-image {
     
+}
+.location-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-content{
+    position: relative;
+    filter:brightness(95%);
+    transition: all 0.3s cubic-bezier(0.445,0.05,0.55,0.95);
+
+}
+.newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
