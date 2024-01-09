@@ -1,0 +1,87 @@
+* {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-1 {
+    margin: 50px;
+    width: 1320px; /* Set the desired width of your div */
+    height: 600px; /* Set the desired height of your div */
+    background-image: url(/Assignment_1/Resources/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 247, 247); /* Set text color */
+    text-align: center; /* Center text horizontally */
+    padding: 20px;
+}
+#box-2 {
+    margin: 50px;
+    width: 1320px; /* Set the desired width of your div */
+    height: 600px; /* Set the desired height of your div */
+    background-image: url(Resources/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 247, 247); /* Set text color */
+    text-align: center; /* Center text horizontally */
+    padding: 20px;
+}
+.text-line {
+    font-size: 18px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+    margin-bottom: 10px; /* Adjust spacing between text lines */
+    background-color: transparent;
+    text-shadow: 2px 2px 4px #080000;
+    text-align: left;
+}
+#text-style-1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#text-style-2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    
+    line-height: normal;
+}
+#text-style-3 {
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    line-height: normal;
+}
+.newsletter-1 {
+    width: 1320px;
+    height: 616px;
+    padding:00px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+#post-image {
+    
+}
